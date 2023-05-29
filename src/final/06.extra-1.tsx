@@ -9,7 +9,8 @@ function UsernameForm({onSubmitUsername}) {
 
   function handleSubmit(event) {
     event.preventDefault()
-    onSubmitUsername(usernameInputRef.current.value)
+    // @ts-ignore
+    onSubmitUsername(usernameInputRef?.current?.value)
   }
 
   return (

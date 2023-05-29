@@ -28,7 +28,7 @@ function App() {
       <Box size="large" style={{backgroundColor: 'orange'}}>
         large orange box
       </Box>
-      <Box>sizeless box</Box>
+      <Box size='' style={{}}>sizeless box</Box>
     </div>
   )
 }
